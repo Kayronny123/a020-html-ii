@@ -1,3 +1,5 @@
+<!-- Adicione a cada um dos climas as tags de mídia correspondentes (imagem, áudio e vídeo). Os arquivos de mídia estão na pasta `media`.
+Caso já tenha feito o exercício 1, pode utilizar o HTML alterado lá para substituir o index.html deste exercício. Novamente, o arquivo `.css` foi utilizado apenas para facilitar a visualizacão, e não deve ser alterado. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,28 +10,28 @@
     <title>Exercício 1</title>
 </head>
 <body>
-    <div class="a">
+    <header class="a">
         <h1>Simulador de climas</h1>
-    </div>
+    </header>
     
-    <div class="b">
+    <main class="b">
     
-        <div class="c">
-            <div class="d">
-                <h2>Chuva</h2>
-            </div>
-            <div class="d">
-                <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
+        <sectio class="c">
+            <article class="d"> <img src="media/chuva.jpeg" height="130px" alt=""> <audio src="media/chuva.mp3" controls></audio> <video src="media/chuva.mp4" controls height="150px"></video>
+                <h2 >Chuva</h2>
+            </article>
+            <article class="d"> <img src="media/animais.jpeg" height="130px" alt=""> <audio src="media/animais.mp3" controls></audio> <video src="media/animais.mp4" controls height="150px" > </video>
+                 <h2>Animais no mato</h2>
+            </article>
+            <article class="d"> <img src="media/tempestade.jpeg" height="130px" alt=""> <audio src="media/tempestade.mp3" controls></audio> <video src="media/tempestade.mp4" controls height="150px"></video>
                 <h2>Tempestade</h2>
-            </div>
-        </div>
+            </article>
+        </section>
     
-    </div>
-    <div class="e">
-        <p>Sugira um clima!</p>
-    </div>
+    </main>
+    <footer class="e">
+        Sugira um clima!
+    </footer>
     
 </body>
 </html>
