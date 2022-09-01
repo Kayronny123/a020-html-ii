@@ -1,5 +1,12 @@
+<!-- Altere o texto ```<p>``` do rodapé do arquivo index.html, adicionando a ele um link para a página sugestao.html.
+Na página sugestão.html, crie um formulário na área indicada. O formulário deve possuir três inputs, cada um com seu **label**. Os campos a ser preenchidos devem ser:
+- Nome
+- e-mail
+- Sugestão de clima
+O formulário deve possuir um botão escrito enviar, de tipo "submit". -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +14,44 @@
     <link rel="stylesheet" href="./style.css">
     <title>Exercício 1</title>
 </head>
+
 <body>
-    <div class="a">
+    <header class="a">
         <h1>Simulador de climas</h1>
-    </div>
-    
-    <div class="b">
-    
-        <div class="c">
-            <div class="d">
+    </header>
+
+    <main class="b">
+
+        <sectio class="c">
+            <article class="d">
                 <h2>Chuva</h2>
-            </div>
-            <div class="d">
+            </article>
+            <article class="d">
                 <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
+            </article>
+            <article class="d">
                 <h2>Tempestade</h2>
-            </div>
-        </div>
-    
-    </div>
-    <div class="e">
-        <p>Sugira um clima!</p>
-    </div>
-    
+            </article>
+            </section>
+    </main>
+
+    <footer class="e">
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="text">Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="sugestão">Sugira um clima!</label>
+            <textarea name="sugestão" id="sugestão" cols="50" rows="5"></textarea>
+            <br>
+            <button type="submit"> <a href="sugestao.html">Clique aqui</a> para enviar sua
+                sugestão</button>
+        </form>
+
+    </footer>
+
 </body>
+
 </html>
